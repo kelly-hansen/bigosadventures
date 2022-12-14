@@ -1,0 +1,147 @@
+.masthead {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.down-chevron {
+  font-size: 3rem;
+  color: #008dff;
+}
+
+.headshot {
+  width: 17rem;
+  height: 17rem;
+}
+
+.career-text {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.link-cont {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 .75rem;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  border: .25rem solid #008dff;
+}
+
+.link-cont:hover {
+  background-color: #008dff;
+  border: .25rem solid #6bbcff;
+  color: white;
+  cursor: pointer;
+}
+
+.link-cont a {
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-cont.footer-link a {
+  color: white;
+}
+
+.link-cont a:hover {
+  color: white;
+}
+
+.portfolio-item {
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.project-subheading {
+  min-height: 5rem;
+}
+
+.skill-card {
+  background-color: #f8f9fa;
+  border-radius: 1rem;
+  margin: 1rem .5rem;
+  height: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  transition: transform .5s;
+}
+
+.skill-card:hover {
+  transform: scale(1.1);
+}
+
+.skill-icon-cont {
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.skill-icon {
+  font-size: 4.5rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: .5rem solid #008dff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-text {
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  text-align: center;
+}
+
+.skill-text:hover {
+  cursor: default;
+}
+
+.skill-text h4 {
+  margin-top: 1rem;
+  font-weight: 400;
+}
+
+.team-member {
+  transition: transform .5s;
+}
+
+.team-member:hover {
+  transform: scale(1.1);
+}
+
+.contact-info {
+  color: #008dff;
+}
+
+
+@media (max-width: 575px) {
+  .career-text {
+    margin: 0;
+    text-align: left;
+  }
+
+  .skill-card {
+    height: 12rem;
+    margin: .75rem 0;
+  }
+
+  .skill-icon {
+    font-size: 3.5rem;
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .skill-text h4 {
+    font-size: 1rem;
+  }
+}
