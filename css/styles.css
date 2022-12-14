@@ -10105,7 +10105,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 2.5rem;
+    height: 2rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -10115,7 +10115,7 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
+  padding-top: 8rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
