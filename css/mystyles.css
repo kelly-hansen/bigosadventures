@@ -10,8 +10,7 @@
 }
 
 .headshot {
-  width: 17rem;
-  height: 17rem;
+  width: 100%;
   object-fit: contain;
 }
 
