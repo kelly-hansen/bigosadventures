@@ -10113,7 +10113,7 @@ img::-moz-selection {
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
   }
-  #mainNav:not(.navbar-shrink) .navbar-nav:not(.navbar-shrink) .nav-item:not(.navbar-shrink) .nav-link:not(.navbar-shrink) {
+  #mainNav:not(.navbar-shrink) .navbar-nav:not(.navbar-shrink) .nav-item:not(.navbar-shrink, :hover) .nav-link:not(.navbar-shrink, :hover) {
     color: black;
   }
 }
